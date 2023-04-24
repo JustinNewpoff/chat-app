@@ -72,6 +72,9 @@ export default function Home() {
 
   const submitMessage = async (e) => {
     e.preventDefault();
+    if (text === "") {
+      return;
+    }
     setMessage(text);
     const user2 = chat.uid;
     const id = user1 > user2 ? user1 + user2 : user2 + user1;
