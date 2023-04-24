@@ -1,0 +1,32 @@
+.home {
+  background-color: rgb(44, 44, 44);
+  width: 100vw;
+  height: 89.3vh;
+  display: flex;
+  .users-container {
+    flex: 1;
+    color: #fff;
+    border-right: 2px solid rgb(255, 255, 255);
+  }
+  .message-container {
+    flex: 3;
+    color: rgb(194, 194, 194);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    .message-user {
+      text-align: center;
+      border: 1px solid white;
+      padding: 10px 0;
+      font-weight: lighter;
+    }
+    .messages {
+      flex: 3;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      overflow: scroll;
+      padding: 20px;
+    }
+  }
+}

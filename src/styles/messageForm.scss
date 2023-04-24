@@ -1,0 +1,137 @@
+.message-form {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  width: 70vw;
+  justify-content: center;
+  margin: 0 auto;
+  input {
+    width: 500px;
+    position: relative;
+    height: 50px;
+    padding: 20px;
+    outline: none;
+    border: 1px solid black;
+  }
+  .upload-icon {
+    font-size: 40px;
+    margin-right: 10px;
+    cursor: pointer;
+    z-index: 1;
+  }
+  .form-btn {
+    button {
+      height: 50px;
+      width: 80px;
+      cursor: pointer;
+      border: none;
+      background-color: #c5c5c5;
+      background-color: transparent;
+      color: white;
+      border: 1px solid white;
+    }
+
+    button:hover {
+      background-color: #383838;
+    }
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .message-form {
+    input {
+      width: 350px;
+      height: 50px;
+      padding: 20px;
+      outline: none;
+      border: 1px solid black;
+    }
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .message-form {
+    input {
+      width: 300px;
+      height: 50px;
+      padding: 20px;
+      outline: none;
+      border: 1px solid black;
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .message-form {
+    input {
+      width: 250px;
+      height: 50px;
+      padding: 20px;
+      outline: none;
+      border: 1px solid black;
+    }
+
+    .upload-icon {
+      font-size: 30px;
+    }
+    .form-btn {
+      button {
+        height: 50px;
+        width: 50px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 534px) {
+  .message-form {
+    input {
+      width: 200px;
+      height: 50px;
+      padding: 20px;
+      outline: none;
+      border: 1px solid black;
+    }
+  }
+}
+
+@media only screen and (max-width: 484px) {
+  .message-form {
+    input {
+      width: 150px;
+      height: 50px;
+      padding: 20px;
+      outline: none;
+      border: 1px solid black;
+    }
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  .message-form {
+    input {
+      width: 150px;
+      height: 50px;
+      padding: 20px;
+      outline: none;
+      border: 1px solid black;
+    }
+  }
+}
+
+@media only screen and (max-width: 341px) {
+  .message-form {
+    input {
+      width: 150px;
+      height: 50px;
+      padding: 20px;
+      outline: none;
+      border: 1px solid black;
+    }
+    .form-btn {
+      button {
+        display: none;
+      }
+    }
+  }
+}

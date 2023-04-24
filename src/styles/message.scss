@@ -1,0 +1,35 @@
+.message-user1 {
+  color: white;
+
+  background-color: blue;
+  padding: 10px;
+  text-align: left;
+  border-radius: 5px;
+  align-self: flex-start;
+}
+
+.message-user2 {
+  color: white;
+  background-color: rgb(153, 153, 153);
+  padding: 10px;
+  text-align: left;
+  border-radius: 5px;
+  align-self: flex-end;
+}
+
+.message-img {
+  img {
+    max-width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+}
+
+.time-user1 {
+  align-self: flex-start;
+}
+
+.time-user2 {
+  align-self: flex-end;
+}
